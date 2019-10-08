@@ -51,15 +51,17 @@ h1 {
 }
 
 button {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #d1d1d1;
   background: #fff;
-  border-radius: 8px;
-  margin: 0;
+  border-radius: 4px;
+  margin: 20px 0;
+  padding: 6px;
 }
 
 button:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  color: gray;
 }
 
 .button-container {
