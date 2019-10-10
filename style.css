@@ -151,3 +151,7 @@ img {
 #contact {
   margin-top: 170px;
 }
+
+.container-form textarea{
+  width: 290px;
+}
