@@ -36,6 +36,20 @@ nav a {
   color: #fff;
 }
 
+nav a:active {
+  color: magenta;
+}
+
+@media only screen and (max-width: 440px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+  .diana {
+    padding: 10px;
+  }
+}
+
 nav a:hover{
   color: lightblue;
 }
@@ -66,4 +80,74 @@ button:hover{
 
 .button-container {
   text-align: center;
+}
+
+
+/* Work SECTION */
+
+h2 {
+  text-align: center;
+}
+
+.work {
+  margin: 0 30px;
+}
+
+.work ul {
+  padding-left: 48%;
+}
+
+
+
+/* Bio Container & Card SECTION & Fun */
+
+
+.container-bio {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#pre-bio {
+}
+
+#bio {
+  margin-top: 170px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 3rem;
+  max-width: 300px;
+  margin: 0 10px;
+}
+
+
+img {
+  border-radius: 50%;
+}
+
+.fun {
+  display: block;
+}
+
+
+/* Contact SECTION */
+
+.container-contact {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact {
+  margin-top: 170px;
 }
