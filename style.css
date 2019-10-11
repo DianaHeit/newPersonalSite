@@ -18,8 +18,9 @@ main {
   }
 }
 
-p{
+p, ul li{
   font-size: 1.3rem;
+  margin-bottom: 20px;
 }
 
 summary {
@@ -117,7 +118,10 @@ h2 {
 }
 
 .work ul {
-  padding-left: 40%;
+  padding-left: 15%;
+  line-height: 1.6rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
 
 .work ul { list-style-type:none;}
@@ -125,8 +129,7 @@ h2 {
     color:green;
     font-size: 1em;
     content: "💻";
-               |
-               +-- Leerzeichen für den Abstand
+    margin-right: 20px;
 }
 
 
