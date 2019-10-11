@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  margin: 0 100px;
+  margin: 0 300px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -39,6 +39,21 @@ details p {
   margin: 0 30px;
 }
 
+#nav-heading {
+  color: #fff;
+  font-size: 1rem;
+  position: relative;
+  padding-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+header a {
+  text-decoration: none;
+}
+
 header {
   display: flex;
   flex-wrap: nowrap;
@@ -55,23 +70,42 @@ header {
 nav a {
   text-decoration: none;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   padding: 1rem;
   color: #fff;
 }
 
-nav a:active {
-  color: magenta;
+@media only screen and (max-width: 1300px){
+  main {
+    margin: 100px;
+  }
 }
 
-@media only screen and (max-width: 440px) {
+
+@media only screen and (max-width: 680px) {
+  main {
+    margin: 20px;
+  }
+
   header {
     display: block;
     text-align: center;
+    height: 200px;
   }
   .diana {
     padding: 10px;
   }
+
+  #nav-heading {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-right: 0;
+  }
+
+  nav a {
+    margin-bottom: 30px;
+  }
+
 }
 
 nav a:hover{
@@ -90,7 +124,7 @@ h1 {
 
 button {
   font-size: 1.2rem;
-  color: #d1d1d1;
+  color: gray;
   background: #fff;
   border-radius: 4px;
   margin: 20px 0;
@@ -162,12 +196,13 @@ h2 {
   transition: 0.3s;
   border-radius: 5px;
   padding: 3rem;
-  max-width: 300px;
+  max-width: 280px;
   margin: 0 10px;
 }
 
 
 img {
+  width: 150px;
   border-radius: 50%;
 }
 
@@ -193,4 +228,31 @@ img {
 
 .container-form textarea{
   width: 290px;
+}
+
+
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  background-color: #03051e;
+  height: 150px;
+  z-index: 300;
+}
+
+@media only screen and (max-width: 680px) {
+  footer {
+    height: 100px;
+  }
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1rem;
+  color: #fff;
 }
