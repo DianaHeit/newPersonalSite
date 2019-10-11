@@ -102,6 +102,10 @@ button:hover{
   color: gray;
 }
 
+button a {
+  text-decoration: none;
+}
+
 .button-container {
   text-align: center;
 }
