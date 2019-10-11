@@ -8,6 +8,29 @@ body {
   margin: 0;
 }
 
+main {
+  margin: 0 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    margin: 0 30px;
+  }
+}
+
+p{
+  font-size: 1.3rem;
+}
+
+summary {
+  padding-left: 30px;
+  font-size: 1.3rem;
+}
+
+details p {
+  padding-left: 60px;
+}
+
 .diana {
   border-radius: 50%;
   width: 100px;
@@ -94,7 +117,16 @@ h2 {
 }
 
 .work ul {
-  padding-left: 48%;
+  padding-left: 40%;
+}
+
+.work ul { list-style-type:none;}
+.work ul li::before {
+    color:green;
+    font-size: 1em;
+    content: "💻";
+               |
+               +-- Leerzeichen für den Abstand
 }
 
 
