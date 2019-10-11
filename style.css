@@ -30,7 +30,7 @@ summary {
 
 summary:hover {
   font-style: italic;
-  color: darkorange;
+  color: darkred;
   cursor: pointer;
 }
 
