@@ -28,6 +28,12 @@ summary {
   font-size: 1.3rem;
 }
 
+summary:hover {
+  font-style: italic;
+  color: darkorange;
+  cursor: pointer;
+}
+
 details p {
   padding-left: 60px;
 }
@@ -156,7 +162,6 @@ h2 {
 }
 
 .work ul {
-  padding-left: 15%;
   line-height: 1.6rem;
   line-height: 1.8;
   margin-bottom: 20px;
