@@ -24,6 +24,10 @@ main a:hover {
   main {
     margin: 0 30px;
   }
+
+  ul {
+    padding: 0;
+  }
 }
 
 
